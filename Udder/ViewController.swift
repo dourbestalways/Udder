@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         //do something
         view.backgroundColor = UIColor.green
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        //test
+        view.backgroundColor = UIColor.orange
+    }
 
 
 }
